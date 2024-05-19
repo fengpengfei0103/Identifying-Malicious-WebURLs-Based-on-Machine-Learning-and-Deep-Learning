@@ -1,2 +1,5 @@
 # Identifying-Malicious-WebURLs-Based-on-Machine-Learning-and-Deep-Learning
 基于机器学习和深度学习识别恶意WebURL
+在该仓库中分别采用了机器学习算法LR和XBOOST算法进行了恶意WEBURL的识别
+同时分别采用了修改后的VGG和全连接以及残差去进行恶意WEBURL的识别
+最后使用Flask框架将其中一个模型部署为Web服务，可以从客户端发送请求进行预测。见代码：“Weburl_test_app.py”
